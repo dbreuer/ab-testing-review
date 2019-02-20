@@ -169,6 +169,13 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/http@~7.2.0":
+  version "7.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-7.2.5.tgz#2a4e1f151e9f2ccc6d28363741217425d81cf755"
+  integrity sha512-F5AE3QcNibShnhxokFaFhid2Abb+qtMbjfTZu3dSBOWbuz7+H0g7WbCFB4UZvWkTiOaQkTuk0J9IBrwrvt3fkQ==
+  dependencies:
+    tslib "^1.9.0"
+
 "@angular/language-service@~7.2.0":
   version "7.2.5"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-7.2.5.tgz#e3ef21f75c1d3f066f00b3c25b4fce2a8aca326e"
@@ -187,6 +194,15 @@
   integrity sha512-trSFOsRC+PrjqE709RQ7ezVCouehD7e82FhQNZQx9O1IZQyO0hxE2ncVB4Lvd7KpunAiFX7M1A2wfksHQl+0qw==
   dependencies:
     tslib "^1.9.0"
+
+"@angular/platform-server@~7.2.0":
+  version "7.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/platform-server/-/platform-server-7.2.5.tgz#ad7d47822771054139a9390857f77573bcb48b21"
+  integrity sha512-JgNSkFq9U+117UrIFM9f2lDJRdXqw4ZxST1kr5cLZ3BAnzlp1JQS9TT9RgIOLVD6rie8Aqgoli7fhaZQ7txvLQ==
+  dependencies:
+    domino "^2.1.0"
+    tslib "^1.9.0"
+    xhr2 "^0.1.4"
 
 "@angular/router@~7.2.0":
   version "7.2.5"
@@ -2172,6 +2188,11 @@ domain-browser@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
   integrity sha512-jnjyiM6eRyZl2H+W8Q/zLMA481hzi0eszAaBUzIVnmYVDBbnLxVNnfu1HgEBvCbL+71FrxMl3E6lpKH7Ge3OXA==
+
+domino@^2.1.0:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/domino/-/domino-2.1.2.tgz#70e8367839ee8ad8bde3aeb4857cf3d93bd98b85"
+  integrity sha512-nzg76s4Smji9teyLwOnqqUCdFVOho+OQFqUwp+42Wo+SEZ1FGw7uhemv6OKk2qp8YIgnGB3jVt0sJWU96wbPgA==
 
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
@@ -7513,6 +7534,11 @@ ws@~3.3.1:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"
     ultron "~1.1.0"
+
+xhr2@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/xhr2/-/xhr2-0.1.4.tgz#7f87658847716db5026323812f818cadab387a5f"
+  integrity sha1-f4dliEdxbbUCYyOBL4GMras4el8=
 
 xml2js@^0.4.17:
   version "0.4.19"
